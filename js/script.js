@@ -29,8 +29,6 @@ function validation(){
         return false;
     }
     
-
-    
     if(conPass == ""){
         document.getElementById("confirmPass").innerHTML = " ** Please fill the confirm password";
         return false;
